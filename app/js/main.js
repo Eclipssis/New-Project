@@ -2,16 +2,6 @@ jQuery(function($){
 
   $('input[placeholder], textarea[placeholder]').placeholder();
 
-  // add-open-class
-  $('.menu-icon').click(function(){
-   if($(this).parent().is('.menu-open')){
-     $(this).parent().removeClass('menu-open');
-     $('body').removeClass('menu-open-wrapper-page');
-   }else{
-     $(this).parent().addClass('menu-open');
-     $('body').addClass('menu-open-wrapper-page');
-   }
-  });
 
 });//end ready
 
